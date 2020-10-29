@@ -1,0 +1,48 @@
+body {
+    font-family: 'Asap';
+    background-color: #000000;
+   
+    }
+ #border {
+    border-radius: 15px;
+    padding: 10px;
+    border: 3px solid  #A64AC9;
+    color:  #A64AC9;
+ }
+ .clearFix{
+    clear:both;
+ }
+  
+ .color-purple {
+    color: #A64AC9;
+ }
+ /* Content is the core of the box, where the text and images appear.
+ The padding and margin are transparent areas around a specific part that wraps
+ around something. The padding surrounds the content and the margin surrounds the border,
+ which is what goes around the content and padding together. */
+ #container {
+    background-color: #FFFFFF;
+    font-color: #000000;
+    padding: 20px;
+    margin: 20px auto 0 auto 0;
+    width: 50%;
+    margin: auto; 
+ }
+  
+ .left-col{
+    float: left;
+    width: 55%;
+ }
+  
+ .right-col{
+    float: right;
+    width: 45%;
+    text-align:right;
+    position:relative;
+ }
+  
+ .sizePic {
+    width:300px;
+    height:300px;
+ }
+ 
